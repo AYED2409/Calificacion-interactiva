@@ -1,0 +1,23 @@
+{
+  "name": "calificacion-interactiva",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "script-boostrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AYED2409/Calificacion-interactiva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AYED2409/Calificacion-interactiva/issues"
+  },
+  "homepage": "https://github.com/AYED2409/Calificacion-interactiva#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

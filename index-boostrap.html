@@ -5,43 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link href="./sass/custom.css" rel="stylesheet"  crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid bg-dark p-5">
-        <div class="tarjeta d-flex justify-content-center">
-            <div class="card text-bg-secondary mb-5 mt-5 rounded-5" style="max-width: 18rem;">
-                <div class="card-header">
-                    <img src="./images/icon-star.svg" class=" border border-dark rounded-circle rounded-5 p-1 border-3" alt="start">
-                </div>
+    <div class="contenedor container-fluid  p-5">
+        <div class="tarjeta d-flex justify-content-evenly">
+            <div class="card contenedorCard text-bg-secondary mb-5 mt-5 rounded-5" style="max-width: 18rem;">
+                
                 <div class="card-body ">
-                  <h5 class="card-title">How did we do?</h5>
-                  <p class="card-text">Please let us know we did with your support request. All feedback is appreciaded to help us improve our offering</p>
-                  <div class="container d-flex justify-content-center">
-                    <div class="row "> 
-                        <div class="col-2 rounded-circle rounded-3 border border-dark p-auto m-auto text-center " >
-                            1
+                    <img src="./images/icon-star.svg" class=" estrella " alt="start">
+                  <h5 class="card-title text-white fw-bold">How did we do?</h5>
+                  <p class="card-text"> Please let us know how we did with your support request. All feedback is appreciated 
+                    to help us improve our offering!</p>
+                  <div class="container d-flex justify-content-center ">
+                    <div class="fila row justify-content-between "> 
+                        <div class=" num num1 grisOscuro col-2 rounded-circle rounded-3 border border-dark text-center  " >
+                            <a href="#" class="num1 numeros text-decoration-none">1 </a>
                         </div>
-                        <div class="col-2 rounded-circle rounded-3 border border-dark p-auto m-auto text-center">
-                            2
+                        <div class="  num col-2 grisOscuro num2 rounded-circle rounded-3 border border-dark text-center">
+                            <a href="#" class="num2 numeros text-decoration-none">2 </a>
                         </div>
-                        <div class="col-2 rounded-circle rounded-3 border border-dark p-auto m-auto text-center">
-                            3
+                        <div class="  num col-2 grisOscuro num3 rounded-circle rounded-3 border border-dark text-center">
+                            <a href="#" class="num3 numeros text-decoration-none">3 </a>
                         </div>
-                        <di class="col-2 rounded-circle rounded-3 border border-dark p-auto m-auto text-center">
-                            4
+                        <di class=" num col-2 grisOscuro num4 rounded-circle rounded-3 border border-dark text-center">
+                            <a href="#" class="num4 numeros text-decoration-none">4 </a>
                         </di>
-                        <div class="col-2 rounded-circle rounded-3 border border-dark p-auto m-auto">
-                            5
+                        <div class=" num grisOscuro col-2 num5 rounded-circle rounded-3 border border-dark text-center">
+                            <a href="#" class=" num5 numeros text-decoration-none">5 </a>
                         </div>
                     </div>
                     
                   </div>
-                  <a href="#" class="d-flex justify-content-center mt-3 rounded-pill border p-2 bg-warning text-decoration-none"><span>SUBMIT</span></a>
+                  <a href="#" class="enviar d-flex justify-content-center mt-3 rounded-pill  p-2  text-decoration-none">SUBMIT</a>
                 </div>
               </div>
         </div>
     </div>
+    <script src="./script-boostrap.js"></script>
 </body>
 </html>
