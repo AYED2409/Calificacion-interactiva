@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
 <link href="./sass/custom.css" rel="stylesheet"  crossorigin="anonymous">
-    <title>Document</title>
+    <title>Interactive Rating component</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
@@ -14,15 +15,19 @@
 <body>
     <div class="contenedor container-fluid  p-5">
         <div class="tarjeta d-flex justify-content-evenly">
-            <div class="card contenedorCard text-bg-secondary mb-5 mt-5 rounded-5" style="max-width: 18rem;">
+            <div class="card contenedorCard text-bg-secondary mb-5 mt-5 rounded-">
                 
                 <div class="card-body ">
                     <img src="./images/icon-star.svg" class=" estrella " alt="start">
+                    <div class="d-flex justify-content-center">
+                        <span id="seleccion" class="fs-6"></span>
+                    </div>
+                    
                   <h5 class="card-title text-white fw-bold">How did we do?</h5>
                   <p class="card-text"> Please let us know how we did with your support request. All feedback is appreciated 
                     to help us improve our offering!</p>
-                  <div class="container d-flex justify-content-center ">
-                    <div class="fila row justify-content-between "> 
+                  <div class="container">
+                    <div class="fila row d-flex justify-content-between "> 
                         <div class=" num num1 grisOscuro col-2 rounded-circle rounded-3 border border-dark text-center  " >
                             <a href="#" class="num1 numeros text-decoration-none">1 </a>
                         </div>
@@ -41,7 +46,7 @@
                     </div>
                     
                   </div>
-                  <a href="#" class="enviar d-flex justify-content-center mt-3 rounded-pill  p-2  text-decoration-none">SUBMIT</a>
+                  <a href="#" class="enviar d-flex justify-content-center mt-4 mb-3 rounded-pill  p-2  text-decoration-none">SUBMIT</a>
                 </div>
               </div>
         </div>
