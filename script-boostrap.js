@@ -56,10 +56,12 @@ document.addEventListener("click", (e)=>{
         valor=5
     }
     if(e.target.matches(".enviar")){
-        console.log("selecciono: "+valor)
-        pintarEnviado()
+        //console.log("selecciono: "+valor)
+        
         if(valor===0){
             window.alert("Debe seleccionar un valor");
+        }else{
+            pintarEnviado()
         }
     }
 })
