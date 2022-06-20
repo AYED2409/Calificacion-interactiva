@@ -1,0 +1,81 @@
+
+/*.num{
+    background-color:#262F38;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 3px;
+}
+*/
+
+.num:hover {
+    background-color: #FC7613;
+    color:white;
+    a{
+        color:white;
+    }
+    
+}
+.estrella {
+    background-color: #262F38;
+    padding: 12px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.contenedor{
+    background-color: #141519;
+    height: 930px;
+}
+//$card-bg: #252d37;
+
+.card {
+    width: 800px;
+    background: linear-gradient(0deg, #171E28 70% ,#363d45,#7c8998);
+    //
+    //padding-bottom: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: #737A84;
+    border-radius: 2rem;
+    max-width: 350px;
+}
+$card-border-radius:  2rem;
+
+.num a{
+    text-decoration: none;
+    color: #515964;
+}
+
+.enviar {
+    color:white;
+    font-size: 15px;
+    background-color: #FC7613;
+    font-weight: bold;
+    a{
+        color: white;
+    }
+}
+.enviar:hover{
+    background-color: white;
+    color: #FC7613;
+}
+.grisClaro {
+    background-color: #7C8898;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 3px;
+    
+    .numeros{
+        color: white;
+    }
+}
+.grisOscuro{
+    background-color:#262F38;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 3px;
+}
+#seleccion{
+    color: #FC7613;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
